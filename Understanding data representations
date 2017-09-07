@@ -1,11 +1,4 @@
-install.packages("vrtest")
-install.packages(c("Rfacebook","RCurl","rjson","sqldf","plyr","sqldf","e1071","caret","ROCR","libcoin","partykit"))
-install.packages("CHAID", repos="http://R-Forge.R-project.org")
-install.packages("pbkrtest")
-install.packages("httr")
-install.packages("Rfacebook")
-install.packages("car")
-install.packages("libcoin")
+
 
 average marks <- c(10, 11, 12, 13, 14)
 average_marks <- c(10, 11, 12, 13, 14)
@@ -16,7 +9,6 @@ marks <- c(11, 12, 13, 14, 15)
 #Understanding the Mode function 
 help(mode)
 "mode"
-mode(names marks)
 mode(names_marks)
 #Creating marks dataframe
 names_marks <- c("a", "b" , "c" , "d", "e")
@@ -32,7 +24,6 @@ input.matrix <- matrix(1:100, ncol=5)
 View(input.matrix)
 
 #Understanding basic data representations 
-marks_maths <- (5, 6, 7, 8, 9)
 marks_maths <-c(5, 6, 7, 8, 9)
 plot(marks, marks_maths)
 
